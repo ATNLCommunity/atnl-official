@@ -6,6 +6,9 @@ bin-release/
 
 # Other files and folders
 .settings/
+.idea
+build
+node_modules
 
 # Executables
 *.swf

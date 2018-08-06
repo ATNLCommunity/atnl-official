@@ -4,11 +4,12 @@ const styles = {
         width: "100%"
     },
     TeamP: {
-        fontSize: '28px',
+        fontSize: '30px',
         color: "#262a37",
         textAlign: 'center',
         paddingTop: '50px',
         paddingBottom: '40px',
+        fontFamily: 'Futura-Medium'
     },
     teamPerson: {
         paddingBottom: '30px',
@@ -62,7 +63,7 @@ export default class Des extends React.Component {
         return (
             <div id="whitepaper" style={styles['TeamBg']} className='flex flex_h_c flex_w'>
                 <div className='TeamContaner' style={{width: "1080px", 'textAltgn': 'center'}}>
-                    <p style={styles['TeamP']}>White Paper</p>
+                    <p style={styles['TeamP']}>WHITE PAPER</p>
                     <p style={{'fontSize': '18px', 'marginBottom': '22px'}}>Download our whitepaper and understand more
                         of our ATNL project.</p>
                     <div style={{'textAlign': 'center', 'marginBottom': '40px'}}>
